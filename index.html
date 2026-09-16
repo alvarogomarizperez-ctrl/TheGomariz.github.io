@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>REGO Tech — Desarrollo de aplicaciones</title>
+<meta name="description" content="REGO Tech desarrolla aplicaciones móviles y soluciones digitales.">
+<style>
+:root{--bg:#020817;--card:#07101d;--blue:#1473ff;--text:#fff;--muted:#9aa7bd}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:var(--bg);color:var(--text)}
+header{position:sticky;top:0;z-index:10;padding:20px 7%;display:flex;justify-content:space-between;align-items:center;background:#020817eF;border-bottom:1px solid #ffffff10;backdrop-filter:blur(12px)}
+.brand{font-size:25px;font-weight:900;letter-spacing:-.5px}.brand span{color:var(--blue)}
+nav a{color:var(--muted);text-decoration:none;margin-left:24px;font-size:14px}nav a:hover{color:#fff}
+main{max-width:1100px;margin:auto;padding:0 7%}
+.hero{min-height:75vh;display:flex;flex-direction:column;justify-content:center;text-align:center}
+.eyebrow{display:inline-block;margin:auto;padding:8px 14px;border:1px solid #ffffff18;border-radius:999px;color:#b9c5d8;font-size:13px}
+h1{font-size:clamp(46px,8vw,82px);line-height:.98;letter-spacing:-3px;margin:24px 0 20px}
+h1 span{color:var(--blue)}.hero p{max-width:700px;margin:0 auto;color:var(--muted);font-size:20px;line-height:1.65}
+.button{display:inline-block;margin-top:32px;background:var(--blue);color:#fff;text-decoration:none;padding:15px 25px;border-radius:14px;font-weight:750}
+section{padding:85px 0} .section-title{text-align:center;margin-bottom:40px}
+.section-title h2{font-size:34px;margin:0 0 10px}.section-title p{color:var(--muted);margin:0}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card{background:var(--card);border:1px solid #ffffff12;border-radius:22px;padding:30px}
+.card .icon{font-size:28px;margin-bottom:20px}.card h3{margin:0 0 10px;font-size:20px}.card p{color:var(--muted);line-height:1.65;margin:0}
+.about{background:var(--card);border:1px solid #ffffff12;border-radius:28px;padding:45px}
+.about p{color:var(--muted);font-size:17px;line-height:1.75}
+.contact{text-align:center;background:var(--card);border:1px solid #ffffff12;border-radius:28px;padding:55px 25px}
+footer{border-top:1px solid #ffffff12;padding:30px 7%;text-align:center;color:var(--muted)}
+footer a{color:var(--muted);margin:0 10px}
+@media(max-width:720px){nav{display:none}.grid{grid-template-columns:1fr}h1{letter-spacing:-2px}.hero{min-height:70vh}.about{padding:30px}}
+</style>
+</head>
+<body>
+<header>
+  <div class="brand">REGO <span>Tech</span></div>
+  <nav>
+    <a href="#servicios">Servicios</a>
+    <a href="#empresa">Empresa</a>
+    <a href="#contacto">Contacto</a>
+    <a href="privacy.html">Privacidad</a>
+  </nav>
+</header>
+
+<main>
+<section class="hero">
+  <div class="eyebrow">DESARROLLO DE APLICACIONES</div>
+  <h1>Ideas que se convierten en <span>apps.</span></h1>
+  <p>REGO Tech es un estudio de desarrollo digital centrado en crear aplicaciones móviles y productos de software modernos, sencillos y útiles.</p>
+  <div><a class="button" href="#servicios">Conoce nuestro trabajo</a></div>
+</section>
+
+<section id="servicios">
+  <div class="section-title">
+    <h2>Qué hacemos</h2>
+    <p>Desarrollo de productos digitales de principio a fin.</p>
+  </div>
+  <div class="grid">
+    <article class="card"><div class="icon">📱</div><h3>Aplicaciones móviles</h3><p>Diseño y desarrollo de aplicaciones para dispositivos móviles con una experiencia clara y cuidada.</p></article>
+    <article class="card"><div class="icon">⚙️</div><h3>Backend y APIs</h3><p>Servicios backend, bases de datos y APIs para dar soporte a aplicaciones y productos digitales.</p></article>
+    <article class="card"><div class="icon">🚀</div><h3>Productos digitales</h3><p>Convertimos ideas en productos funcionales, desde las primeras pantallas hasta su puesta en producción.</p></article>
+  </div>
+</section>
+
+<section id="empresa">
+  <div class="about">
+    <div class="section-title" style="text-align:left;margin-bottom:20px">
+      <h2>Sobre REGO Tech</h2>
+    </div>
+    <p>REGO Tech es una organización dedicada al desarrollo de aplicaciones y soluciones de software. Nuestro objetivo es crear productos digitales que combinen tecnología, diseño y facilidad de uso.</p>
+    <p>Trabajamos en el desarrollo y mantenimiento de aplicaciones móviles y servicios digitales asociados.</p>
+  </div>
+</section>
+
+<section id="contacto">
+  <div class="contact">
+    <h2>Contacto</h2>
+    <p style="color:var(--muted);line-height:1.6">Para consultas sobre REGO Tech y nuestros productos, utiliza el canal de contacto oficial de la organización.</p>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div>© 2026 REGO Tech</div>
+  <div style="margin-top:10px"><a href="privacy.html">Política de privacidad</a><a href="terms.html">Términos de uso</a></div>
+</footer>
+</body>
+</html>
